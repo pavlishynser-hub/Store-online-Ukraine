@@ -1,0 +1,14 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='960' height='640' viewBox='0 0 960 640'>
+  <defs>
+    <linearGradient id='grad' x1='0' x2='1' y1='0' y2='1'>
+      <stop offset='0%' stop-color='#0ea5e9' />
+      <stop offset='100%' stop-color='#1d4ed8' />
+    </linearGradient>
+  </defs>
+  <rect width='960' height='640' rx='48' fill='url(#grad)'/>
+  <circle cx='140' cy='120' r='48' fill='rgba(255, 255, 255, 0.18)' />
+  <circle cx='830' cy='520' r='68' fill='rgba(255, 255, 255, 0.2)' />
+  <path d='M120 520 Q240 360 420 520 T720 520' fill='none' stroke='rgba(255,255,255,0.35)' stroke-width='10' stroke-linecap='round'/>
+  <text x='80' y='340' font-family="'Manrope', 'Geist', sans-serif" font-size='64' font-weight='700' fill='rgba(255,255,255,0.95)'>МРІЯ МАРКЕТ</text>
+  <text x='80' y='410' font-family="'Manrope', 'Geist', sans-serif" font-size='28' font-weight='400' fill='rgba(255,255,255,0.85)'>Якість, що надихає щодня</text>
+</svg>

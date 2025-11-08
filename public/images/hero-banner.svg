@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1440" height="720" viewBox="0 0 1440 720" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="heroGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e40af"/>
+      <stop offset="50%" stop-color="#2563eb"/>
+      <stop offset="100%" stop-color="#38bdf8"/>
+    </linearGradient>
+    <radialGradient id="heroGlow" cx="0.5" cy="0.5" r="0.75">
+      <stop offset="0%" stop-color="#bae6fd" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#60a5fa" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1440" height="720" fill="url(#heroGradient)" rx="48"/>
+  <circle cx="360" cy="180" r="220" fill="url(#heroGlow)"/>
+  <circle cx="1140" cy="540" r="280" fill="url(#heroGlow)"/>
+  <path d="M0 530 Q360 420 720 520 T1440 530 V720 H0 Z" fill="#0f172a" fill-opacity="0.28"/>
+  <path d="M0 560 Q360 460 720 560 T1440 560 V720 H0 Z" fill="#0f172a" fill-opacity="0.22"/>
+  <g opacity="0.18" fill="none" stroke="#bae6fd">
+    <circle cx="340" cy="200" r="140" stroke-width="2"/>
+    <circle cx="340" cy="200" r="220" stroke-width="2" stroke-dasharray="12 12"/>
+    <circle cx="1120" cy="520" r="180" stroke-width="2"/>
+    <circle cx="1120" cy="520" r="260" stroke-width="2" stroke-dasharray="16 14"/>
+  </g>
+</svg>

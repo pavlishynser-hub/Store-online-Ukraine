@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://novastore-shop.vercel.app
+
+# Sitemaps
+Sitemap: https://novastore-shop.vercel.app/sitemap.xml

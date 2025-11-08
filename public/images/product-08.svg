@@ -1,0 +1,11 @@
+
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 600 400'>
+  <defs>
+    <linearGradient id='grad' x1='0%' y1='0%' x2='100%' y2='100%'>
+      <stop offset='0%' stop-color='#0f172a' />
+      <stop offset='100%' stop-color='#fbbf24' />
+    </linearGradient>
+  </defs>
+  <rect width='600' height='400' fill='url(#grad)' rx='32'/>
+  <text x='50%' y='50%' dominant-baseline='middle' text-anchor='middle' font-family='Inter, sans-serif' font-size='56' fill='rgba(255,255,255,0.95)' font-weight='600'>ТОВАР 8</text>
+</svg>

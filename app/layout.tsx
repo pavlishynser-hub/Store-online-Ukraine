@@ -23,23 +23,23 @@ const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "TechNova — магазин сучасних гаджетів",
+    default: "TechNova — товари, що допомагають у житті",
     template: "%s · TechNova"
   },
   description:
-    "TechNova — український онлайн-магазин гаджетів та аксесуарів із доставкою по всій Україні та миттєвою оплатою через Prom.ua.",
+    "TechNova — український онлайн-магазин товарів, що допомагають у повсякденному житті, з доставкою по всій Україні та миттєвою оплатою через Prom.ua.",
   keywords: [
-    "гаджети",
+    "товари для життя",
     "інтернет-магазин",
-    "купити гаджети",
+    "товари для дому",
     "Prom.ua",
-    "аксесуари",
-    "електроніка"
+    "корисні речі",
+    "аксесуари"
   ],
   openGraph: {
-    title: "TechNova — магазин сучасних гаджетів",
+    title: "TechNova — товари, що допомагають у житті",
     description:
-      "Добірка актуальних гаджетів, аксесуарів та tech-новинок з гарантією та оплатою через Prom.ua.",
+      "Добірка корисних товарів, аксесуарів та новинок для щоденного комфорту з гарантією та оплатою через Prom.ua.",
     url: "/",
     siteName: "TechNova",
     locale: "uk_UA",
@@ -49,15 +49,15 @@ export const metadata: Metadata = {
         url: "/images/product-01.svg",
         width: 1200,
         height: 630,
-        alt: "TechNova — магазин сучасних гаджетів"
+        alt: "TechNova — товари, що допомагають у житті"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "TechNova — магазин сучасних гаджетів",
+    title: "TechNova — товари, що допомагають у житті",
     description:
-      "Швидка доставка, прозорі умови та оплата через Prom.ua. Обирайте краще для себе та близьких.",
+      "Швидка доставка, прозорі умови та оплата через Prom.ua. Обирайте корисні речі для себе та близьких.",
     images: ["/images/product-01.svg"]
   },
   alternates: {

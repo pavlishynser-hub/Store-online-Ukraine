@@ -1,0 +1,182 @@
+[
+  {
+    "id": "1",
+    "name": "Розумний годинник Nova Watch S3",
+    "description": "Сучасний розумний годинник з AMOLED-екраном, моніторингом серця та підтримкою української мови.",
+    "category": "Гаджети",
+    "price": 3499,
+    "image": "/images/products/product-1.svg",
+    "promLink": "https://prom.ua/p123456701"
+  },
+  {
+    "id": "2",
+    "name": "Бездротові навушники AirPulse Lite",
+    "description": "Легкі бездротові навушники з шумозаглушенням та автономністю до 24 годин.",
+    "category": "Гаджети",
+    "price": 1899,
+    "image": "/images/products/product-2.svg",
+    "promLink": "https://prom.ua/p123456702"
+  },
+  {
+    "id": "3",
+    "name": "Портативна колонка SoundBox Go",
+    "description": "Вологостійка колонка з потужним стереозвуком і підсвіткою для вечірок.",
+    "category": "Гаджети",
+    "price": 2299,
+    "image": "/images/products/product-3.svg",
+    "promLink": "https://prom.ua/p123456703"
+  },
+  {
+    "id": "4",
+    "name": "LED-лампа Ambient Light 360°",
+    "description": "Настільна лампа з теплим та холодним світлом, режимом нічника та USB-портом.",
+    "category": "Дім та затишок",
+    "price": 1199,
+    "image": "/images/products/product-4.svg",
+    "promLink": "https://prom.ua/p123456704"
+  },
+  {
+    "id": "5",
+    "name": "Плед з мікрофібри CozyHome",
+    "description": "Надзвичайно м'який плед 200×220 см, який легко переться та швидко сохне.",
+    "category": "Дім та затишок",
+    "price": 949,
+    "image": "/images/products/product-5.svg",
+    "promLink": "https://prom.ua/p123456705"
+  },
+  {
+    "id": "6",
+    "name": "Органайзер для кабелів SmartDesk",
+    "description": "Магнітний органайзер, що дозволяє акуратно зберігати всі кабелі та зарядні пристрої.",
+    "category": "Гаджети",
+    "price": 499,
+    "image": "/images/products/product-6.svg",
+    "promLink": "https://prom.ua/p123456706"
+  },
+  {
+    "id": "7",
+    "name": "Ігрова миша PulsePro X7",
+    "description": "Ергономічна ігрова миша з RGB-підсвіткою та настроюваними кнопками.",
+    "category": "Геймінг",
+    "price": 1299,
+    "image": "/images/products/product-7.svg",
+    "promLink": "https://prom.ua/p123456707"
+  },
+  {
+    "id": "8",
+    "name": "Механічна клавіатура SkyKeys 87",
+    "description": "Компактна механічна клавіатура з гарячою заміною свічів та підсвіткою.",
+    "category": "Геймінг",
+    "price": 2799,
+    "image": "/images/products/product-8.svg",
+    "promLink": "https://prom.ua/p123456708"
+  },
+  {
+    "id": "9",
+    "name": "Електрична зубна щітка FreshSmile Pro",
+    "description": "Щітка з 5 режимами чищення, таймером та акумулятором на 30 днів.",
+    "category": "Краса та здоров'я",
+    "price": 1599,
+    "image": "/images/products/product-9.svg",
+    "promLink": "https://prom.ua/p123456709"
+  },
+  {
+    "id": "10",
+    "name": "Масажер для шиї RelaxPro",
+    "description": "Масажер з режимом нагріву, що знімає втому після робочого дня.",
+    "category": "Краса та здоров'я",
+    "price": 1999,
+    "image": "/images/products/product-10.svg",
+    "promLink": "https://prom.ua/p123456710"
+  },
+  {
+    "id": "11",
+    "name": "Набір контейнерів для кухні FreshBox",
+    "description": "Герметичні контейнери різних розмірів для зберігання продуктів.",
+    "category": "Дім та затишок",
+    "price": 749,
+    "image": "/images/products/product-11.svg",
+    "promLink": "https://prom.ua/p123456711"
+  },
+  {
+    "id": "12",
+    "name": "Портативний блендер SmoothieGo",
+    "description": "Компактний блендер для приготування смузі та коктейлів у дорозі.",
+    "category": "Кухня",
+    "price": 1399,
+    "image": "/images/products/product-12.svg",
+    "promLink": "https://prom.ua/p123456712"
+  },
+  {
+    "id": "13",
+    "name": "Термочашка WarmKeep 500 мл",
+    "description": "Стильна термочашка з подвійними стінками, що зберігає тепло до 8 годин.",
+    "category": "Кухня",
+    "price": 599,
+    "image": "/images/products/product-13.svg",
+    "promLink": "https://prom.ua/p123456713"
+  },
+  {
+    "id": "14",
+    "name": "Спортивна пляшка AquaFit 1 л",
+    "description": "Багаторазова пляшка з маркуванням об’єму та зручним ремінцем.",
+    "category": "Спорт",
+    "price": 459,
+    "image": "/images/products/product-14.svg",
+    "promLink": "https://prom.ua/p123456714"
+  },
+  {
+    "id": "15",
+    "name": "Фітнес-резинки PowerBand Set",
+    "description": "Набір із трьох еластичних резинок різного рівня навантаження.",
+    "category": "Спорт",
+    "price": 399,
+    "image": "/images/products/product-15.svg",
+    "promLink": "https://prom.ua/p123456715"
+  },
+  {
+    "id": "16",
+    "name": "Безпровідний пилосос CleanHome V10",
+    "description": "Легкий вертикальний пилосос з автономністю 45 хвилин та HEPA-фільтром.",
+    "category": "Дім та затишок",
+    "price": 5199,
+    "image": "/images/products/product-16.svg",
+    "promLink": "https://prom.ua/p123456716"
+  },
+  {
+    "id": "17",
+    "name": "Зволожувач повітря AirCare Mini",
+    "description": "Компактний зволожувач з режимом нічного підсвічування та авто-вимкненням.",
+    "category": "Дім та затишок",
+    "price": 899,
+    "image": "/images/products/product-17.svg",
+    "promLink": "https://prom.ua/p123456717"
+  },
+  {
+    "id": "18",
+    "name": "Рюкзак CityMove 18 л",
+    "description": "Міський рюкзак з водостійкої тканини, відділенням для ноутбука та USB-виходом.",
+    "category": "Аксесуари",
+    "price": 1649,
+    "image": "/images/products/product-18.svg",
+    "promLink": "https://prom.ua/p123456718"
+  },
+  {
+    "id": "19",
+    "name": "Павербанк EnergyBoost 20000 мА·год",
+    "description": "Павербанк з підтримкою швидкого заряджання Power Delivery та двома портами USB-C.",
+    "category": "Гаджети",
+    "price": 2199,
+    "image": "/images/products/product-19.svg",
+    "promLink": "https://prom.ua/p123456719"
+  },
+  {
+    "id": "20",
+    "name": "Комплект смарт-освітлення GlowKit",
+    "description": "Набір розумних ламп із підтримкою керування зі смартфона та голосових асистентів.",
+    "category": "Розумний дім",
+    "price": 2899,
+    "image": "/images/products/product-20.svg",
+    "promLink": "https://prom.ua/p123456720"
+  }
+]

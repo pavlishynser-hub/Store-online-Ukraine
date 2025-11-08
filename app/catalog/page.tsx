@@ -7,7 +7,7 @@ const productList = products as Product[];
 export const metadata: Metadata = {
   title: "Каталог товарів",
   description:
-    "Перегляньте повний каталог гаджетів та аксесуарів у TechNova. Купуйте онлайн з оплатою через Prom.ua та доставкою по всій Україні."
+    "Перегляньте повний каталог товарів, що допомагають у повсякденному житті, в TechNova. Купуйте онлайн з оплатою через Prom.ua та доставкою по всій Україні."
 };
 
 export default function CatalogPage() {
@@ -20,12 +20,12 @@ export default function CatalogPage() {
         <div className="flex flex-col gap-3 sm:flex-row sm:items-end sm:justify-between">
           <div className="space-y-2">
             <h1 className="text-4xl font-bold tracking-tight text-slate-900">
-              Каталог гаджетів
+              Каталог товарів
             </h1>
             <p className="max-w-2xl text-sm text-slate-600">
-              Обирайте смарт-пристрої, аксесуари та техніку для дому. Кожна
-              позиція доступна для швидкої купівлі через Prom.ua та доставку до
-              будь-якого міста України.
+              Обирайте корисні речі для дому, відпочинку та роботи. Кожна позиція
+              доступна для швидкої купівлі через Prom.ua та доставку до будь-якого
+              міста України.
             </p>
           </div>
           <div className="flex items-center gap-3 rounded-full border border-slate-200 bg-white px-5 py-2 text-sm text-slate-600 shadow-sm">

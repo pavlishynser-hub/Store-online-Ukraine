@@ -4,13 +4,13 @@ import Link from "next/link";
 export const metadata: Metadata = {
   title: "Контакти",
   description:
-    "Контактна інформація інтернет-магазину TechNova: телефони, адреса шоуруму, графік роботи та канали підтримки."
+    "Контактна інформація інтернет-магазину TechNova: електронна пошта, телефон та Telegram для швидкого звʼязку."
 };
 
 const contacts = [
   {
-    title: "Головний офіс",
-    lines: ["м. Київ, вул. Верхній Вал, 24", "Шоурум та точка видачі замовлень"],
+    title: "Електронна пошта",
+    lines: ["pavlishyn.ser@gmail.com", "Відповідаємо щодня з 09:00 до 21:00"],
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -23,19 +23,14 @@ const contacts = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 21c-3.866 0-7-2.985-7-6.667C5 8.008 12 3 12 3s7 5.008 7 11.333C19 18.015 15.866 21 12 21Z"
-        />
-        <path
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          d="M12 11.5a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z"
+          d="M21.75 6.75v10.5a2.25 2.25 0 0 1-2.25 2.25H4.5a2.25 2.25 0 0 1-2.25-2.25V6.75m19.5 0-9.75 6-9.75-6"
         />
       </svg>
     )
   },
   {
-    title: "Підтримка клієнтів",
-    lines: ["+38 (044) 123-45-67", "+38 (067) 555-77-22", "support@technova.ua"],
+    title: "Телефон",
+    lines: ["+38 (067) 777 48 17", "Дзвінки щодня з 09:00 до 21:00"],
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -48,14 +43,14 @@ const contacts = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M18 14v3a2 2 0 0 1-2 2h-1.268a2 2 0 0 0-1.664.89L12 22l-1.068-1.11A2 2 0 0 0 9.268 19H8a2 2 0 0 1-2-2v-3m12 0a3.5 3.5 0 0 0 0-7m0 7H6m0 0a3.5 3.5 0 1 1 0-7"
+          d="M2.25 6.75c0 8.284 6.716 15 15 15H18a2.25 2.25 0 0 0 2.25-2.25v-1.194a1.125 1.125 0 0 0-.853-1.09l-4.5-1.125a1.125 1.125 0 0 0-1.281.65l-.45 1.125a12.036 12.036 0 0 1-5.854-5.854l1.125-.45a1.125 1.125 0 0 0 .65-1.281l-1.125-4.5A1.125 1.125 0 0 0 7.694 3H6.5A2.25 2.25 0 0 0 4.25 5.25v1.5Z"
         />
       </svg>
     )
   },
   {
-    title: "Графік роботи",
-    lines: ["Пн-Сб: 10:00 — 20:00", "Нд: 11:00 — 18:00", "Онлайн-підтримка 24/7"],
+    title: "Telegram",
+    lines: ["@Maks_pryjmak", "Напишіть нам у месенджері — відповімо оперативно"],
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +63,7 @@ const contacts = [
         <path
           strokeLinecap="round"
           strokeLinejoin="round"
-          d="M12 6v6l3.5 2.1M12 22a10 10 0 1 0 0-20 10 10 0 0 0 0 20Z"
+          d="M21 3 3 10.5l6.75 2.25M21 3l-7.5 18-3.75-8.25M9.75 12.75 21 3"
         />
       </svg>
     )
@@ -109,48 +104,49 @@ export default function ContactsPage() {
         ))}
       </section>
 
-      <section className="grid gap-6 lg:grid-cols-2">
-        <div className="rounded-3xl border border-slate-200 bg-white p-6 text-sm text-slate-600">
-          <h2 className="mb-3 text-lg font-semibold text-slate-900">
-            Як доїхати
-          </h2>
-          <p className="mb-4">
-            Ми знаходимось за 5 хвилин від станції метро Контрактова площа. Поруч
-            зручна парковка, кавʼярні та сервісні центри партнерів.
-          </p>
-          <Link
-            href="https://maps.app.goo.gl/placeholder"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-sky-500/30 transition hover:from-sky-600 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
-          >
-            Відкрити на Google Maps
-          </Link>
-        </div>
-        <div className="rounded-3xl border border-dashed border-slate-200 bg-slate-50/80 p-6 text-sm text-slate-600">
-          <h2 className="mb-3 text-lg font-semibold text-slate-900">
-            Канали звʼязку
-          </h2>
-          <ul className="space-y-2">
-            <li>
-              <span className="font-semibold text-slate-900">Telegram:</span>{" "}
-              <Link href="https://t.me/technova_support" target="_blank">
-                @technova_support
-              </Link>
-            </li>
-            <li>
-              <span className="font-semibold text-slate-900">Viber:</span>{" "}
-              +38 (067) 555-77-22
-            </li>
-            <li>
-              <span className="font-semibold text-slate-900">Facebook:</span>{" "}
-              <Link href="https://facebook.com/technova.ua" target="_blank">
-                facebook.com/technova.ua
-              </Link>
-            </li>
-          </ul>
-        </div>
-      </section>
+        <section className="grid gap-6 lg:grid-cols-2">
+          <div className="rounded-3xl border border-slate-200 bg-white p-6 text-sm text-slate-600">
+            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+              Як ми працюємо
+            </h2>
+            <p className="mb-3">
+              Магазин TechNova працює повністю онлайн. Оформлюйте замовлення у зручний час,
+              а за потреби пишіть або телефонуйте — допоможемо підібрати найкраще рішення.
+            </p>
+            <p className="mb-4">
+              Консультуємо з понеділка по неділю, відповідаємо протягом години у робочий час.
+            </p>
+            <Link
+              href="mailto:pavlishyn.ser@gmail.com"
+              className="inline-flex items-center gap-2 rounded-full bg-gradient-to-r from-sky-500 to-indigo-500 px-5 py-2 text-sm font-semibold text-white shadow-lg shadow-sky-500/30 transition hover:from-sky-600 hover:to-indigo-600 focus:outline-none focus:ring-2 focus:ring-sky-500 focus:ring-offset-2"
+            >
+              Написати листа
+            </Link>
+          </div>
+          <div className="rounded-3xl border border-dashed border-slate-200 bg-slate-50/80 p-6 text-sm text-slate-600">
+            <h2 className="mb-3 text-lg font-semibold text-slate-900">
+              Прямі контакти
+            </h2>
+            <ul className="space-y-2">
+              <li>
+                <span className="font-semibold text-slate-900">Email:</span>{" "}
+                <Link href="mailto:pavlishyn.ser@gmail.com">
+                  pavlishyn.ser@gmail.com
+                </Link>
+              </li>
+              <li>
+                <span className="font-semibold text-slate-900">Телефон:</span>{" "}
+                <Link href="tel:+380677774817">+38 (067) 777 48 17</Link>
+              </li>
+              <li>
+                <span className="font-semibold text-slate-900">Telegram:</span>{" "}
+                <Link href="https://t.me/Maks_pryjmak" target="_blank">
+                  @Maks_pryjmak
+                </Link>
+              </li>
+            </ul>
+          </div>
+        </section>
     </div>
   );
 }

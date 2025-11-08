@@ -75,18 +75,17 @@ export default function Home() {
       <section className="relative overflow-hidden rounded-[40px] bg-white px-6 py-16 shadow-xl shadow-sky-100/50 sm:px-10 lg:px-16">
         <div className="absolute inset-0 -z-10 bg-[radial-gradient(circle_at_top,_#bae6fd,_transparent_60%)]" />
         <div className="grid gap-12 lg:grid-cols-[1.2fr_1fr] lg:items-center">
-          <div className="space-y-8">
-            <span className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-4 py-1 text-sm font-medium text-sky-700">
-              Нові технології для кожного дня
-            </span>
-            <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
-              Обирайте гаджети, що підкреслюють ваш стиль життя
-            </h1>
-            <p className="max-w-xl text-lg text-slate-600">
-              TechNova — це добірка трендових пристроїв, перевірені партнери та
-              підтримка на кожному етапі. Купуйте безпечно та швидко завдяки
-              інтеграції з Prom.ua.
-            </p>
+            <div className="space-y-8">
+              <span className="inline-flex items-center gap-2 rounded-full bg-sky-100 px-4 py-1 text-sm font-medium text-sky-700">
+                Рішення для щоденного комфорту
+              </span>
+              <h1 className="text-4xl font-bold tracking-tight text-slate-900 sm:text-5xl lg:text-6xl">
+                Обирайте товари, що допомагають у житті
+              </h1>
+              <p className="max-w-xl text-lg text-slate-600">
+                TechNova — це добірка корисних речей, перевірені партнери та підтримка
+                на кожному етапі. Купуйте безпечно та швидко завдяки інтеграції з Prom.ua.
+              </p>
             <div className="flex flex-col gap-4 sm:flex-row">
               <Link
                 href="/catalog"

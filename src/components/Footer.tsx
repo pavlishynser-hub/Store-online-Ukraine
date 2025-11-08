@@ -38,7 +38,7 @@ export function Footer() {
             TechNova
           </span>
           <p className="text-sm text-slate-500">
-            Сучасні гаджети та аксесуари, які надихають на щоденні перемоги.
+            Корисні товари та аксесуари, що допомагають у щоденному житті.
             Доставляємо по всій Україні та гарантуємо сервіс Prom.ua.
           </p>
           <div className="text-xs text-slate-400">

@@ -1,0 +1,122 @@
+[
+  {
+    "id": "1",
+    "name": "Екологічна пляшка для води",
+    "description": "Легка багаторазова пляшка з тритану з фільтром та захистом від протікань.",
+    "price": 399,
+    "image": "/images/product-01.svg",
+    "promLink": "https://prom.ua/p111111111-ekologichna-plyashka"
+  },
+  {
+    "id": "2",
+    "name": "Бездротові навушники Aurora",
+    "description": "Компактні навушники з активним шумозаглушенням та автономністю до 24 годин.",
+    "price": 2299,
+    "image": "/images/product-02.svg",
+    "promLink": "https://prom.ua/p222222222-bezdrotovi-navushniki-aurora"
+  },
+  {
+    "id": "3",
+    "name": "Смарт-годинник Vitality",
+    "description": "Стежте за здоров'ям, тренуваннями та повідомленнями на великому AMOLED-дисплеї.",
+    "price": 3799,
+    "image": "/images/product-03.svg",
+    "promLink": "https://prom.ua/p333333333-smart-godinnik-vitality"
+  },
+  {
+    "id": "4",
+    "name": "Рюкзак CityLight",
+    "description": "Стильний міський рюкзак з USB-портом для заряджання та захистом від дощу.",
+    "price": 1899,
+    "image": "/images/product-04.svg",
+    "promLink": "https://prom.ua/p444444444-ryukzak-citylight"
+  },
+  {
+    "id": "5",
+    "name": "Термокружка HeatWave",
+    "description": "Зберігає напої гарячими до 8 годин, має подвійні стінки та противиливну кришку.",
+    "price": 549,
+    "image": "/images/product-05.svg",
+    "promLink": "https://prom.ua/p555555555-termokruzhka-heatwave"
+  },
+  {
+    "id": "6",
+    "name": "Настільна лампа Glow",
+    "description": "Мінімалістична LED-лампа з регулюванням яскравості та температури світла.",
+    "price": 1399,
+    "image": "/images/product-06.svg",
+    "promLink": "https://prom.ua/p666666666-nastilna-lampa-glow"
+  },
+  {
+    "id": "7",
+    "name": "Повербанк RapidCharge",
+    "description": "Ємність 20 000 мА·год з підтримкою швидкого заряджання Power Delivery.",
+    "price": 1599,
+    "image": "/images/product-07.svg",
+    "promLink": "https://prom.ua/p777777777-poverbank-rapidcharge"
+  },
+  {
+    "id": "8",
+    "name": "Bluetooth-колонка Pulse",
+    "description": "Портативна колонка з глибоким басом, підсвічуванням та захистом IPX6.",
+    "price": 1999,
+    "image": "/images/product-08.svg",
+    "promLink": "https://prom.ua/p888888888-bluetooth-kolonka-pulse"
+  },
+  {
+    "id": "9",
+    "name": "Фітнес-резинки FlexSet",
+    "description": "Набір з 5 еластичних резинок різного рівня навантаження у футлярі.",
+    "price": 749,
+    "image": "/images/product-09.svg",
+    "promLink": "https://prom.ua/p999999999-fitnes-rezinki-flexset"
+  },
+  {
+    "id": "10",
+    "name": "Органайзер для кабелів CableNest",
+    "description": "Акуратний кейс для зберігання кабелів, зарядок та аксесуарів у подорожах.",
+    "price": 459,
+    "image": "/images/product-10.svg",
+    "promLink": "https://prom.ua/p101010101-cablenest"
+  },
+  {
+    "id": "11",
+    "name": "Настінний годинник Minimal",
+    "description": "Сучасний безшумний годинник з матовим покриттям для будь-якого інтер'єру.",
+    "price": 999,
+    "image": "/images/product-11.svg",
+    "promLink": "https://prom.ua/p111213141-nastinnij-godinnik-minimal"
+  },
+  {
+    "id": "12",
+    "name": "Зволожувач повітря Misty",
+    "description": "Компактний ультразвуковий зволожувач з LED-підсвічуванням та таймером.",
+    "price": 1299,
+    "image": "/images/product-12.svg",
+    "promLink": "https://prom.ua/p121212121-zvolozhuvach-misty"
+  },
+  {
+    "id": "13",
+    "name": "Плед SoftHome",
+    "description": "М'який флісовий плед 150×200 см із приємною текстурою та теплим відтінком.",
+    "price": 899,
+    "image": "/images/product-13.svg",
+    "promLink": "https://prom.ua/p131313131-pled-softhome"
+  },
+  {
+    "id": "14",
+    "name": "LED-стрічка Ambilight",
+    "description": "Гнучка LED-стрічка з дистанційним керуванням та режимами підсвічування.",
+    "price": 799,
+    "image": "/images/product-14.svg",
+    "promLink": "https://prom.ua/p141414141-led-strichka-ambilight"
+  },
+  {
+    "id": "15",
+    "name": "Масажний ролер Recovery",
+    "description": "Рельєфний ролер для масажу м'язів після тренувань та розслаблення.",
+    "price": 649,
+    "image": "/images/product-15.svg",
+    "promLink": "https://prom.ua/p151515151-masazhniy-roler-recovery"
+  }
+]

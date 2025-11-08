@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import products from "@/../data/products.json";
+import products from "../data/products.json";
 import { ProductCard, type Product } from "@/components/ProductCard";
 
 const productList = products as Product[];

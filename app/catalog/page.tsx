@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import products from "@/../data/products.json";
+import products from "../../data/products.json";
 import { ProductCard, type Product } from "@/components/ProductCard";
 
 const productList = products as Product[];

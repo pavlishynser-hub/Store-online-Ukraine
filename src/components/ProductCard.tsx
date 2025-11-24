@@ -1,10 +1,17 @@
 import Image from "next/image";
 import Link from "next/link";
 
-import type { Product } from "@data/products";
+import type { Product as AutoProduct } from "@data/products";
+
+export type Product = {
+  id: string;
+  title: string;
+  price: number;
+  image: string;
+};
 
 type ProductCardProps = {
-  product: Product;
+  product: AutoProduct;
   ctaLabel: string;
 };
 
@@ -49,3 +56,5 @@ export function ProductCard({ product, ctaLabel }: ProductCardProps) {
     </Link>
   );
 }
+
+export { ProductCard, Product };

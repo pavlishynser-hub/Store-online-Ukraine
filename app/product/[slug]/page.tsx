@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import type { Metadata } from "next";
-import { notFound } from "next/navigation";
 
 import { OrderForm } from "@/components/OrderForm";
 import { products } from "../../../data/products";
@@ -37,7 +36,25 @@ export default function ProductPage({ params }: ProductPageProps) {
   const product = products.find((item) => item.slug === slug);
 
   if (!product) {
-    notFound();
+    return (
+      <div className="bg-[#F5F7FA]">
+        <div className="mx-auto flex min-h-[70vh] w-full max-w-5xl items-center justify-center px-4 py-16">
+          <div className="w-full max-w-md rounded-3xl bg-white p-8 text-center shadow-sm shadow-slate-200">
+            <p className="text-4xl">🧰</p>
+            <h1 className="mt-4 text-2xl font-semibold text-slate-900">Товар не знайдено</h1>
+            <p className="mt-2 text-sm text-slate-500">
+              Схоже, такий автоаксесуар ще не додали. Поверніться на головну та оберіть інший товар.
+            </p>
+            <Link
+              href="/"
+              className="mt-6 inline-flex items-center justify-center rounded-2xl bg-blue-600 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-600/30 transition hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2"
+            >
+              На головну
+            </Link>
+          </div>
+        </div>
+      </div>
+    );
   }
 
   return (

@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { Header } from "@/components/Header";
-import { Footer } from "@/components/Footer";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -18,47 +16,47 @@ const geistMono = Geist_Mono({
   display: "swap"
 });
 
-const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || "https://example.com";
+const siteUrl =
+  process.env.NEXT_PUBLIC_SITE_URL || "https://autocomfort-hub.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
   title: {
-    default: "TechNova — магазин сучасних гаджетів",
-    template: "%s · TechNova"
+    default: "AutoComfort Hub — магазин автоаксесуарів",
+    template: "%s · AutoComfort Hub"
   },
   description:
-    "TechNova — український онлайн-магазин гаджетів та аксесуарів із доставкою по всій Україні та миттєвою оплатою через Prom.ua.",
+    "AutoComfort Hub — добірка автоаксесуарів, що роблять кожну поїздку комфортною. Швидка доставка по Україні та оплата при отриманні.",
   keywords: [
-    "гаджети",
-    "інтернет-магазин",
-    "купити гаджети",
-    "Prom.ua",
-    "аксесуари",
-    "електроніка"
+    "автоаксесуари",
+    "органайзер для авто",
+    "масажер для водіїв",
+    "ортопедична подушка",
+    "автомобільні товари",
+    "комфорт у дорозі"
   ],
   openGraph: {
-    title: "TechNova — магазин сучасних гаджетів",
+    title: "AutoComfort Hub — усе для зручної поїздки",
     description:
-      "Добірка актуальних гаджетів, аксесуарів та tech-новинок з гарантією та оплатою через Prom.ua.",
+      "4 хітові автоаксесуари: органайзери, масажер-пістолет та ортопедична подушка для довгих поїздок.",
     url: "/",
-    siteName: "TechNova",
+    siteName: "AutoComfort Hub",
     locale: "uk_UA",
     type: "website",
     images: [
       {
-        url: "/images/product-01.svg",
+        url: "/images/product-04.svg",
         width: 1200,
         height: 630,
-        alt: "TechNova — магазин сучасних гаджетів"
+        alt: "AutoComfort Hub — магазин автоаксесуарів"
       }
     ]
   },
   twitter: {
     card: "summary_large_image",
-    title: "TechNova — магазин сучасних гаджетів",
-    description:
-      "Швидка доставка, прозорі умови та оплата через Prom.ua. Обирайте краще для себе та близьких.",
-    images: ["/images/product-01.svg"]
+    title: "AutoComfort Hub — комфорт для водія",
+    description: "Компактні автоаксесуари, швидка доставка та оплата при отриманні.",
+    images: ["/images/product-04.svg"]
   },
   alternates: {
     canonical: "/",
@@ -77,7 +75,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport = {
-  themeColor: "#0ea5e9"
+  themeColor: "#1D74F5"
 };
 
 export default function RootLayout({
@@ -87,18 +85,8 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="uk">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} flex min-h-screen flex-col`}
-      >
-        <div className="flex min-h-screen flex-col">
-          <Header />
-          <main className="flex-1">
-            <div className="mx-auto w-full max-w-6xl px-4 py-10 md:px-6 lg:px-8">
-              {children}
-            </div>
-          </main>
-          <Footer />
-        </div>
+      <body className={`${geistSans.variable} ${geistMono.variable} bg-[#F5F7FA] text-slate-900 antialiased`}>
+        <main>{children}</main>
       </body>
     </html>
   );

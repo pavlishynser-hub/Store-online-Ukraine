@@ -97,7 +97,10 @@ export default function PrivacyPage() {
         </ul>
         <p className="mt-3">
           Для реалізації прав звʼяжіться з нами за адресою{" "}
-          <a href="mailto:privacy@technova.ua">privacy@technova.ua</a>.
+          <a href="mailto:2015maxetavel@seznam.cz">
+            2015maxetavel@seznam.cz
+          </a>
+          .
         </p>
       </section>
     </div>

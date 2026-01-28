@@ -35,7 +35,7 @@ const contacts = [
   },
   {
     title: "Підтримка клієнтів",
-    lines: ["+38 (044) 123-45-67", "+38 (067) 555-77-22", "support@technova.ua"],
+    lines: ["+420776384669", "+420776384669", "2015maxetavel@seznam.cz"],
     icon: (
       <svg
         xmlns="http://www.w3.org/2000/svg"
@@ -140,7 +140,7 @@ export default function ContactsPage() {
             </li>
             <li>
               <span className="font-semibold text-slate-900">Viber:</span>{" "}
-              +38 (067) 555-77-22
+              +420776384669
             </li>
             <li>
               <span className="font-semibold text-slate-900">Facebook:</span>{" "}

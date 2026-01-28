@@ -91,8 +91,8 @@ export default function TermsPage() {
           <li>Юридична адреса: м. Київ, вул. Набережна, 12</li>
           <li>Р/р: UA123456789012345678901234567</li>
           <li>Банк: АТ «ПриватБанк»</li>
-          <li>Телефон: +38 (044) 123-45-67</li>
-          <li>E-mail: office@technova.ua</li>
+          <li>Телефон: +420776384669</li>
+          <li>E-mail: 2015maxetavel@seznam.cz</li>
         </ul>
       </section>
     </div>
